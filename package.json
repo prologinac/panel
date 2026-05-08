@@ -1,0 +1,24 @@
+{
+
+  "name": "madrin-pair",
+  "version": "1.0.0",
+  "description": "WhatsApp Pairing Utility for Madrin-MD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^v7.0.0-rc.3",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.21.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+
+  }
+
+}
+
